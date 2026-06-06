@@ -1,4 +1,7 @@
+import { useContextData } from "../contexts/LanguageContext";
+
 function Header() {
+    const { header } = useContextData();
     return (
         <div className="flex flex-col gap-2 pt-5">
             <div className="flex justify-end items-center gap-4 text-sm font-bold tracking-wider text-indigo-900">
@@ -23,9 +26,9 @@ function Header() {
             <div className="flex justify-between">
                 <span className="w-14 h-14 text-logo-600 bg-[#EEEBFF] rounded-full flex items-center justify-center font-bold text-2xl rotate-40">A</span>
                 <nav className="flex items-center">
-                    <a href="" className="button-header">Skills</a>
-                    <a href="" className="button-header">Projects</a>
-                    <a href="" className="button-header">Hire Me</a>
+                    {header.list.map((item, index) => (
+                        <a key={index} href="" className="button-header">{item}</a>
+                    ))}
                 </nav>
             </div>
         </div>
