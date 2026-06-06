@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+    --color-logo-600: #7B61FF;
+    --font-sans: "Inter", sans-serif;
+}
+
+
+.button-hero {
+    @apply flex justify-center items-center flex-row border-2 border-indigo-900 rounded-md text-indigo-800 text-lg hover:bg-indigo-900 hover:text-white;
+}
+
+.button-header {
+    @apply flex justify-center items-center py-3 px-8 text-gray-500 hover:border-2 hover:border-indigo-900 hover:rounded-md hover:text-indigo-800;
+}

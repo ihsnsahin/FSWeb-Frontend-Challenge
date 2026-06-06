@@ -12,14 +12,18 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Hero />
-      <Skills />
-      <Profile />
-      <Projects />
+      <div className="flex flex-col max-w-6xl mx-auto gap-22">
+        <Header />
+        <Hero />
+        <Skills />
+        <Profile />
+        <Projects />
+      </div>
       <Footer />
-
     </>
+
+
+
   )
 }
 
