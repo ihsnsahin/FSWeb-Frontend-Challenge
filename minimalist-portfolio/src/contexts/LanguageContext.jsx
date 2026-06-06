@@ -1,10 +1,11 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext } from "react";
 import { data } from "../data/data";
+import usePreference from "../hooks/usePreference";
 
 const LanguageContext = createContext();
 
 function LanguageContextProvider({ children }) {
-    const [language, setLanguage] = useState("en");
+    const [language, setLanguage] = usePreference("lang", "en");
     const toggleLanguage = () => setLanguage(language === "en" ? "tr" : "en");
     const contextData = data[language];
     return (
