@@ -13,4 +13,4 @@ function LanguageContextProvider({ children }) {
 }
 
 export default LanguageContextProvider;
-export const useContextData = () => useContext(LanguageContext);
+export const useLanguage = () => useContext(LanguageContext);

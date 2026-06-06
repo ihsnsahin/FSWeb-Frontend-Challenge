@@ -1,8 +1,8 @@
 
-import { useContextData } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext";
 import ProfileCard from "./ProfileCard";
 function Profile() {
-    const { profiles } = useContextData();
+    const { profiles } = useLanguage();
     return (
         <div className="flex flex-col gap-6 border-b border-[#BAB2E7] pb-10" >
             <h1 className="text-5xl leading-none font-semibold">{profiles.title}</h1>

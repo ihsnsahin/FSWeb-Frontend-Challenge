@@ -1,7 +1,7 @@
-import { useContextData } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext";
 
 function Header() {
-    const { header } = useContextData();
+    const { header } = useLanguage();
     return (
         <div className="flex flex-col gap-2 pt-5">
             <div className="flex justify-end items-center gap-4 text-sm font-bold tracking-wider text-indigo-900">

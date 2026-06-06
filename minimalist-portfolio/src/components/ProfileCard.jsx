@@ -1,6 +1,6 @@
-import { useContextData } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext";
 function ProfileCard() {
-    const { profiles } = useContextData();
+    const { profiles } = useLanguage();
     return (
         <>
             {profiles.profileList.map((item) => (

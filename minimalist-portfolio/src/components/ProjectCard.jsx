@@ -1,6 +1,6 @@
-import { useContextData } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext";
 function ProjectCard() {
-    const { projects } = useContextData();
+    const { projects } = useLanguage();
     return (<>
         {projects.list.map((item) => (
             <div className="flex flex-col gap-6 max-w-64" key={item.id}>

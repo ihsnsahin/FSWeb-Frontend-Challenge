@@ -1,6 +1,6 @@
-import { useContextData } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext";
 function SkillCard() {
-    const { skills } = useContextData();
+    const { skills } = useLanguage();
     return (
         <>
             {skills.list.map((item) => (
