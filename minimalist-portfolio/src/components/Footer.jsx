@@ -1,6 +1,7 @@
 import { useLanguage } from "../contexts/LanguageContext";
 function Footer() {
-    const { footer } = useLanguage();
+    const { contextData } = useLanguage();
+    const { footer } = contextData;
     return (
         <div className="bg-[#F9F9F9] mt-33">
             <div className="flex flex-col max-w-6xl mx-auto gap-22 pt-21 pb-32">

@@ -1,7 +1,8 @@
 import { useLanguage } from "../contexts/LanguageContext";
 import ProjectCard from "./ProjectCard";
 function Projects() {
-    const { projects } = useLanguage();
+    const { contextData } = useLanguage();
+    const { projects } = contextData;
     return (
         <div className="flex flex-col gap-6 ">
             <h1 className="text-5xl leading-none font-semibold">{projects.title}</h1>

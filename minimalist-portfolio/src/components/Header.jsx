@@ -1,7 +1,8 @@
 import { useLanguage } from "../contexts/LanguageContext";
 
 function Header() {
-    const { header } = useLanguage();
+    const { contextData, toggleLanguage } = useLanguage();
+    const { header } = contextData;
     return (
         <div className="flex flex-col gap-2 pt-5">
             <div className="flex justify-end items-center gap-4 text-sm font-bold tracking-wider text-indigo-900">
@@ -19,8 +20,8 @@ function Header() {
                 </div>
                 <span className="text-[#777777] text-sm font-bold">|</span>
                 {/* SAĞ TARAF: Dil Değiştirme Butonu */}
-                <button className="text-[#777777] text-sm font-bold">
-                    <span className="text-[#4731D3]">TÜRKÇE</span>'YE GEÇ
+                <button className="text-[#777777] text-sm font-bold cursor-pointer" onClick={toggleLanguage}>
+                    {header.langSuffix1}<span className="text-[#4731D3]">{header.langBase}</span>{header.langSuffix2}
                 </button>
             </div>
             <div className="flex justify-between">

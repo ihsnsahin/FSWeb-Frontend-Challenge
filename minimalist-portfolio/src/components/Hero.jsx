@@ -2,7 +2,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useLanguage } from "../contexts/LanguageContext";
 
 function Hero() {
-    const { hero } = useLanguage();
+    const { contextData } = useLanguage();
+    const { hero } = contextData;
     return (
         <>
             <section className="flex items-center justify-between gap-[17]">

@@ -1,6 +1,7 @@
 import { useLanguage } from "../contexts/LanguageContext";
 function SkillCard() {
-    const { skills } = useLanguage();
+    const { contextData } = useLanguage();
+    const { skills } = contextData;
     return (
         <>
             {skills.list.map((item) => (

@@ -93,7 +93,10 @@ const Data2 = {
 export const data = {
     "en": {
         header: {
-            list: ["Skills", "Projects", "Hire Me"]
+            list: ["Skills", "Projects", "Hire Me"],
+            langBase: "TÜRKÇE",
+            langSuffix1: "",
+            langSuffix2: "'YE GEÇ"
         },
         hero: {
             title: "Creative thinker Minimalism lover",
@@ -111,10 +114,10 @@ export const data = {
             title: "Profile",
             subtitle: "Profile",
             profileList: [
-                { id: "Birthday", key: "Birthday", value: "24.03.1996" },
+                { id: "Birthday", key: "Date of Birth", value: "24.03.1996" },
                 { id: "City", key: "City", value: "Ankara" },
-                { id: "Education", key: "Education Level", value: "Hacettepe Ünv.  Biyoloji Lisans, 2016" },
-                { id: "Role", key: "Preferred Role", value: "Frontend, UI" },
+                { id: "Education", key: "Education Level", value: "Hacettepe University, Bachelor's in Biology, 2016" },
+                { id: "Role", key: "Preferred Role", value: "Frontend, UI" }
             ],
             aboutMe: {
                 title: "About Me",
@@ -140,7 +143,10 @@ export const data = {
 
     "tr": {
         header: {
-            list: ["Yetenekler", "Projeler", "Beni İşe Al"]
+            list: ["Yetenekler", "Projeler", "Beni İşe Al"],
+            langBase: "ENGLİSH",
+            langSuffix1: "SWITCH TO ",
+            lang2: "",
         },
         hero: {
             title: "Yaratıcı düşünen, minimalizm seven",
