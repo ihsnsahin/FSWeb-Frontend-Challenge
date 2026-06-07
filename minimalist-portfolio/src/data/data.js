@@ -96,7 +96,9 @@ export const data = {
             list: ["Skills", "Projects", "Hire Me"],
             langBase: "TÜRKÇE",
             langSuffix1: "",
-            langSuffix2: "'YE GEÇ"
+            langSuffix2: "'YE GEÇ",
+            darkModeText: "DARK MODE",
+            lightModeText: "LIGHT MODE"
         },
         hero: {
             title: "Creative thinker Minimalism lover",
@@ -146,7 +148,9 @@ export const data = {
             list: ["Yetenekler", "Projeler", "Beni İşe Al"],
             langBase: "ENGLİSH",
             langSuffix1: "SWITCH TO ",
-            lang2: "",
+            langSuffix2: "",
+            darkModeText: "GECE MOD",
+            lightModeText: "GÜNDÜZ MOD"
         },
         hero: {
             title: "Yaratıcı düşünen, minimalizm seven",
