@@ -1,15 +1,15 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    --color-logo-600: #7B61FF;
     --font-sans: "Inter", sans-serif;
 }
 
 
 .button-hero {
-    @apply flex justify-center items-center flex-row border-2 border-indigo-900 rounded-md text-indigo-800 text-lg hover:bg-indigo-900 hover:text-white;
+    @apply flex justify-center items-center flex-row border-2 border-indigo-900 dark:border-[#E1E1FF] rounded-md text-indigo-800 dark:text-[#E1E1FF] text-lg hover:bg-indigo-900 hover:dark:bg-[#E1E1FF] hover:text-white hover:dark:text-black;
 }
 
 .button-header {
-    @apply flex justify-center items-center py-3 px-8 text-gray-500 hover:border-2 hover:border-indigo-900 hover:rounded-md hover:text-indigo-800;
+    @apply flex justify-center items-center py-3 px-8 text-gray-500 font-medium hover:border-2 hover:border-indigo-900 hover:dark:border-white hover:dark:bg-white hover:rounded-md hover:text-[#3730A3];
 }

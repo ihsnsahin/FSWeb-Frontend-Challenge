@@ -6,16 +6,16 @@ function Profile() {
     const { profiles } = contextData;
     return (
         <div className="flex flex-col gap-7 border-b border-[#BAB2E7] pb-10" >
-            <h1 className="text-5xl leading-none font-semibold">{profiles.title}</h1>
+            <h1 className="text-5xl leading-none font-semibold dark:text-[#AEBCCF]">{profiles.title}</h1>
             <div className="flex justify-between gap-7">
                 <div className="flex flex-col gap-6">
-                    <h2 className="text-3xl text-indigo-700">{profiles.subtitle}</h2>
+                    <h2 className="text-3xl text-indigo-700 dark:text-[#CFCBFF]">{profiles.subtitle}</h2>
                     <ProfileCard />
                 </div>
                 <div className="flex flex-col gap-6" >
-                    <h2 className="text-3xl text-indigo-700">{profiles.aboutMe.title}</h2>
+                    <h2 className="text-3xl text-indigo-700 dark:text-[#CFCBFF]">{profiles.aboutMe.title}</h2>
                     {profiles.aboutMe.text.map((item, index) => (
-                        <p className="text-lg text-gray-500 max-w-4xl" key={index}>{item}</p>
+                        <p className="text-lg text-gray-500 max-w-4xl dark:text-white" key={index}>{item}</p>
                     ))}
                 </div>
             </div>
