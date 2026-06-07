@@ -92,7 +92,17 @@ const Data2 = {
 
 export const data = {
     "en": {
+        languageContext: {
+            trModeText: "Switched to Turkish...",
+            enModeText: "Switched to English..."
+        },
+
+        themeContext: {
+            darkModeText: "Switched to Dark Mode.",
+            lightModeText: "Switched to Light Mode."
+        },
         header: {
+
             list: ["Skills", "Projects", "Hire Me"],
             langBase: "TÜRKÇE",
             langSuffix1: "",
@@ -144,7 +154,16 @@ export const data = {
     },
 
     "tr": {
+        languageContext: {
+            trModeText: "Türkçe'ye Geçildi...",
+            enModeText: "İngilizce'ye Geçildi..."
+        },
+        themeContext: {
+            darkModeText: "Gece Moda geçildi...",
+            lightModeText: "Gündüz Moda geçildi..."
+        },
         header: {
+
             list: ["Yetenekler", "Projeler", "Beni İşe Al"],
             langBase: "ENGLİSH",
             langSuffix1: "SWITCH TO ",

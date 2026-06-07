@@ -7,10 +7,10 @@ import ThemeContextProvider from './contexts/ThemeContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ThemeContextProvider>
-      <LanguageContextProvider>
+    <LanguageContextProvider>
+      <ThemeContextProvider>
         <App />
-      </LanguageContextProvider>
-    </ThemeContextProvider>
+      </ThemeContextProvider>
+    </LanguageContextProvider>
   </StrictMode>
 )

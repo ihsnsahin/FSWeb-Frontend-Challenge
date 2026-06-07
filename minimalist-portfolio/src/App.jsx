@@ -1,3 +1,4 @@
+import { Bounce, ToastContainer } from 'react-toastify';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -5,11 +6,11 @@ import Hero from './components/Hero';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import { useTheme } from './contexts/ThemeContext';
 
 
 function App() {
-
-
+  const { theme } = useTheme();
   return (
     <>
       <div className="dark:bg-[#252128] transition-color duration-300">
@@ -22,6 +23,18 @@ function App() {
         </div>
       </div>
       <Footer />
+      <ToastContainer position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme={theme}
+        transition={Bounce} />
+
     </>
   )
 }
