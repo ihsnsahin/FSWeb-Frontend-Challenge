@@ -10,7 +10,7 @@ function Header() {
 
     const handleLanguageChange = () => {
         toggleLanguage();
-        language === "en" ? toast.success("Switched to English...") : toast.success("Türkçe'ye Geçildi...")
+        language === "en" ? toast.success("Türkçe'ye Geçildi...") : toast.success("Switched to English...")
 
     }
     return (
@@ -25,10 +25,10 @@ function Header() {
                             checked={theme === "light"}
                             className="sr-only peer" />
                         {/* Switch'in Gövdesi */}
-                        <div className="w-12 h-5 bg-[#4731D3] dark:bg-[#3A3A3A] rounded-full peer peer-focus:outline-none transition-colors duration-300"></div>
+                        <div className="w-12 h-5 bg-[#4731D3] dark:bg-[#3A3A3A] rounded-full peer peer-focus:outline-none"></div>
                         {/* Switch'in İçindeki Sarı Top */}
                         <div className="absolute top-0.5 left-0.5 w-4 h-4 bg-[#FFE86E] rounded-full transition-all duration-300 peer-checked:translate-x-7 overflow-hidden"></div>
-                        <div className="absolute w-3 h-3 rounded-full left-1 bg-[#3A3A3A] translate-x-1.5 peer-checked:bg-transparent transition-all duration-700"></div>
+                        <div className="absolute w-3 h-3 rounded-full left-1 bg-[#4731D3] dark:bg-[#3A3A3A] translate-x-1.5 peer-checked:bg-transparent "></div>
                     </label>
                     <span className="text-[#777777] text-sm font-bold dark:text-[#D9D9D9]">{theme === "dark" ? header.lightModeText : header.darkModeText}</span>
                 </div>
