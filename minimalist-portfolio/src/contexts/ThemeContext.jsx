@@ -14,14 +14,8 @@ function ThemeContextProvider({ children }) {
     useEffect(() => {
         //HTML elemanı yakaladık
         const root = document.documentElement;
-
-        if (theme === "dark") {
-            //Temamız dark ise class ekledi
-            root.classList.add("dark")
-        } else {
-            //Temamız dark değilse class çıkardı
-            root.classList.remove("dark")
-        }
+        //Tema Dark ise ekledik değilse çıkardık.
+        theme === "dark" ? root.classList.add("dark") : root.classList.remove("dark");
     }, [theme])
 
     const toggleTheme = () => {

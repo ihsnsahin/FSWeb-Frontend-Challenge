@@ -92,11 +92,6 @@ const Data2 = {
 
 export const data = {
     "en": {
-        languageContext: {
-            trModeText: "Switched to Turkish...",
-            enModeText: "Switched to English..."
-        },
-
         themeContext: {
             darkModeText: "Switched to Dark Mode.",
             lightModeText: "Switched to Light Mode."
@@ -154,10 +149,6 @@ export const data = {
     },
 
     "tr": {
-        languageContext: {
-            trModeText: "Türkçe'ye Geçildi...",
-            enModeText: "İngilizce'ye Geçildi..."
-        },
         themeContext: {
             darkModeText: "Gece Moda geçildi...",
             lightModeText: "Gündüz Moda geçildi..."

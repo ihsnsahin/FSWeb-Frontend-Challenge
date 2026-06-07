@@ -7,11 +7,7 @@ const LanguageContext = createContext();
 
 function LanguageContextProvider({ children }) {
     const [language, setLanguage] = usePreference("lang", "en");
-    const toggleLanguage = () => {
-        setLanguage(language === "en" ? "tr" : "en")
-        toast.success()
-
-    };
+    const toggleLanguage = () => setLanguage(language === "en" ? "tr" : "en");
     const contextData = data[language];
     return (
         <LanguageContext.Provider value={{ language, contextData, toggleLanguage }}>

@@ -7,15 +7,12 @@ function Header() {
     const { language, contextData, toggleLanguage } = useLanguage();
     const { header } = contextData;
     const { theme, toggleTheme } = useTheme();
-    useEffect(() => {
-        if (language === "en") {
-            toast.success(contextData.languageContext.enModeText)
 
-        } else {
-            toast.success(contextData.languageContext.trModeText)
-        }
+    const handleLanguageChange = () => {
+        toggleLanguage();
+        language === "en" ? toast.success("Switched to English...") : toast.success("Türkçe'ye Geçildi...")
 
-    }, [language])
+    }
     return (
         <div className="flex flex-col gap-7 pt-5">
             <div className="flex justify-end items-center gap-4 text-sm font-bold tracking-wider text-indigo-900">
@@ -37,7 +34,7 @@ function Header() {
                 </div>
                 <span className="text-[#777777] text-sm font-bold">|</span>
                 {/* SAĞ TARAF: Dil Değiştirme Butonu */}
-                <button className="text-[#777777] text-sm font-bold cursor-pointer" onClick={toggleLanguage}>
+                <button className="text-[#777777] text-sm font-bold cursor-pointer" onClick={handleLanguageChange}>
                     {header.langSuffix1}<span className="text-[#4731D3] dark:text-[#B7AAFF]">{header.langBase}</span>{header.langSuffix2}
                 </button>
             </div>
