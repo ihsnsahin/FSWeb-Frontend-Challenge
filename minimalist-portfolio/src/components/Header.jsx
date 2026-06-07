@@ -11,7 +11,6 @@ function Header() {
     const handleLanguageChange = () => {
         toggleLanguage();
         language === "en" ? toast.success("Türkçe'ye Geçildi...") : toast.success("Switched to English...")
-
     }
     return (
         <div className="flex flex-col gap-7 pt-5">

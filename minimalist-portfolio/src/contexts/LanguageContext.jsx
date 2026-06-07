@@ -24,11 +24,6 @@ function LanguageContextProvider({ children }) {
     if (!contextData) {
         return (
             <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 dark:bg-zinc-900 gap-3">
-                <div className="flex space-x-2">
-                    <div className="w-3 h-3 bg-indigo-600 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
-                    <div className="w-3 h-3 bg-indigo-600 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
-                    <div className="w-3 h-3 bg-indigo-600 rounded-full animate-bounce"></div>
-                </div>
                 <p className="text-sm font-medium text-slate-500 dark:text-zinc-400 tracking-wide animate-pulse">
                     {language === "en" ? "Loading..." : "Yükleniyor..."}
                 </p>
