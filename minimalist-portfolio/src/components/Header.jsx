@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 import { useTheme } from "../contexts/ThemeContext";
 import { toast } from "react-toastify";

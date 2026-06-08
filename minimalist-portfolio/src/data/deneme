@@ -1,10 +1,22 @@
-const { data: contextData, loading, error } = useAxios("https://reqres.in/api/workintech", localData[language], {
-    headers: {
-        "x-api-key": "pub_bb6e669884e959413fd1a4f9d6750f26f9a75699353266f035534be0c29b5f3b",
-    }
-}, language)
+////////////////usePostRequest ile çalışan sistem.////////////////////////////
+const { data: contextData, loading, error, postRequest } = usePostRequest();
+useEffect(() => {
+    postRequest("https://reqres.in/api/workintech", localData[language], {
+        headers: {
+            "x-api-key": "pub_c0d1a2eb022a51e95b1549b39de6f7400ab19335bca9699f0034834cdc8945bb",
+        }
+    });
+}, [language]);
+if (!contextData) {
+    return (
+        <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 dark:bg-zinc-900 gap-3">
+            <p className="text-sm font-medium text-slate-500 dark:text-zinc-400 tracking-wide animate-pulse">
+                {language === "en" ? "Loading..." : "Yükleniyor..."}
+            </p>
+        </div>);
+}
 
-
+////////////Normal Hook olmadan çalışan sistem////////////////////////////
 const [contextData, setContextData] = useState(null)
 useEffect(() => {
     axios.post("https://reqres.in/api/workintech", localData[language], {
@@ -16,12 +28,6 @@ useEffect(() => {
         .catch((err) => console.log(err))
 
 }, [language]);
+////////////////istek yapılmadan çalışan istem/////////////////////
+const contextData = localData[language];
 
-if (!contextData) {
-    return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 dark:bg-zinc-900 gap-3">
-            <p className="text-sm font-medium text-slate-500 dark:text-zinc-400 tracking-wide animate-pulse">
-                {language === "en" ? "Loading..." : "Yükleniyor..."}
-            </p>
-        </div>);
-}
