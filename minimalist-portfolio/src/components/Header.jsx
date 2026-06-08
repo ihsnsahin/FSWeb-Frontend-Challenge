@@ -8,8 +8,8 @@ function Header() {
     const { theme, toggleTheme } = useTheme();
 
     const handleLanguageChange = () => {
-        toggleLanguage();
         language === "en" ? toast.success("Türkçe'ye Geçildi...") : toast.success("Switched to English...")
+        toggleLanguage();
     }
     return (
         <div className="flex flex-col gap-7 pt-5">
@@ -17,8 +17,9 @@ function Header() {
 
                 {/* SOL TARAF: Dark Mode Toggle (Input + Label Yapısı) */}
                 <div className="flex items-center gap-3">
-                    <label className="relative inline-flex items-center cursor-pointer">
+                    <label data-cy="mode-button" className="relative inline-flex items-center cursor-pointer">
                         <input type="checkbox"
+
                             onChange={toggleTheme}
                             checked={theme === "light"}
                             className="sr-only peer" />
@@ -32,7 +33,7 @@ function Header() {
                 </div>
                 <span className="text-[#777777] text-sm font-bold">|</span>
                 {/* SAĞ TARAF: Dil Değiştirme Butonu */}
-                <button className="text-[#777777] text-sm font-bold cursor-pointer" onClick={handleLanguageChange}>
+                <button className="text-[#777777] text-sm font-bold cursor-pointer" data-cy="language-button" onClick={handleLanguageChange}>
                     {header.langSuffix1}<span className="text-[#4731D3] dark:text-[#B7AAFF]">{header.langBase}</span>{header.langSuffix2}
                 </button>
             </div>
