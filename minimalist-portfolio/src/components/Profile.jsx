@@ -5,9 +5,9 @@ function Profile() {
     const { contextData } = useLanguage();
     const { profiles } = contextData;
     return (
-        <div className="flex flex-col gap-7 border-b border-[#BAB2E7] pb-10" >
+        <div className="flex flex-col gap-7 border-b border-[#BAB2E7] pb-10 " >
             <h1 className="text-5xl leading-none font-semibold dark:text-[#AEBCCF]">{profiles.title}</h1>
-            <div className="flex justify-between gap-7">
+            <div className="flex justify-between gap-7 max-tablet:max-w-full max-tablet:flex-wrap max-phone:justify-center max-tablet:justify-start">
                 <div className="flex flex-col gap-6">
                     <h2 className="text-3xl text-indigo-700 dark:text-[#CFCBFF]">{profiles.subtitle}</h2>
                     <ProfileCard />

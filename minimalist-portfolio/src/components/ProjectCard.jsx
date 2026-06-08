@@ -4,7 +4,7 @@ function ProjectCard() {
     const { projects } = contextData;
     return (<>
         {projects.list.map((item) => (
-            <div className="flex flex-col gap-6 max-w-64" key={item.id}>
+            <div className="flex flex-col gap-6 max-w-64 max-tablet:max-w-full" key={item.id}>
                 <div className="flex items-center justify-center ">
                     <img src={item.image} alt="projects-1" className="w-full aspect-2/1 object-cover" />
                 </div>
