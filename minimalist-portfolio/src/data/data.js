@@ -90,7 +90,7 @@ const Data2 = {
     }
 }
 
-export const data = {
+export const localData = {
     "en": {
         themeContext: {
             darkModeText: "Switched to Dark Mode.",
