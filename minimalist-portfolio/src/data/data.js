@@ -113,7 +113,7 @@ export const localData = {
             title: "Creative thinker Minimalism lover",
             text: "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
             list: [
-                { "label": "Beni işe al", "url": "" },
+                { "label": "Hire me", "url": "" },
                 { "label": "Github", "url": "" },
                 { "label": "Linkedin", "url": "" }
             ]
@@ -203,7 +203,7 @@ export const localData = {
             title: "Yaratıcı düşünen, minimalizm seven",
             text: "Merhaba, ben Almila. Full-stack geliştiriciyim. Harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir Geliştirici arıyorsanız, haydi el sıkışalım.",
             list: [
-                { "label": "Hire me", "url": "" },
+                { "label": "Beni işe al", "url": "" },
                 { "label": "Github", "url": "" },
                 { "label": "Linkedin", "url": "" }
             ]
