@@ -157,9 +157,15 @@ export const localData = {
                     ]
                 },
                 {
-                    id: 2, image: "projects-2.png", name: "Random Jokes", description: "A fun web application that fetches hilarious jokes from public APIs. Built using custom hooks for state management and features a minimalist UI with async loading states and local storage integration.", technologies: ["react", "context api", "axios"], linkList: [
-                        { "label": "GitHub", "url": "" },
-                        { "label": "View Site", "url": "" }]
+                    id: 2,
+                    image: "kisiselwebsitesi.png",
+                    name: "Personal Portfolio Website",
+                    description: "A dynamic portfolio application built using modern web technologies and UX best practices. Multi-language support (TR/EN) and dark/light theme settings are managed globally via Context API, with user preferences persisted using Local Storage integration. Asynchronous data fetching from remote APIs is handled with Axios, while user interaction feedbacks such as language and theme switching are enriched through React-Toastify notifications. The entire interface is designed fully responsive using Tailwind CSS.",
+                    technologies: ["react", "context api", "axios", "tailwind css", "react-toastify", "vercel", "render", "cypress"],
+                    linkList: [
+                        { "label": "GitHub", "url": "https://github.com/ihsnsahin/FSWeb-Frontend-Challenge" },
+                        { "label": "View Site", "url": "https://fsweb-frontend-challenge-8npr.onrender.com/" }
+                    ]
                 },
                 {
                     id: 3, image: "projects-3.png", name: "Journey", description: "A responsive travel blogging platform where users can log their trips, pin locations on an interactive map, and share high-quality images with an active community.", technologies: ["react", "tailwind css", "node.js"], linkList: [
@@ -241,9 +247,15 @@ export const localData = {
                     ]
                 },
                 {
-                    id: 2, image: "projects-2.png", name: "Random Jokes", description: "Genel API'lerden eğlenceli şakalar çeken keyifli bir web uygulaması. Durum yönetimi için özel hook'lar kullanılarak oluşturuldu; asenkron yükleme durumları ve yerel depolama (local storage) entegrasyonuna sahip minimalist bir arayüz sunar.", technologies: ["react", "context api", "axios"], linkList: [
-                        { "label": "GitHub", "url": "" },
-                        { "label": "Siteyi Gör", "url": "" }]
+                    id: 2,
+                    image: "kisiselwebsitesi.png",
+                    name: "Kişisel Portfolyo Sitesi",
+                    description: "Modern web teknolojileri ve en iyi UX pratikleri kullanılarak geliştirilmiş dinamik portfolyo uygulaması. Çoklu dil desteği (TR/EN) ve karanlık/aydınlık tema tercihleri Context API ile küresel olarak yönetilmekte, kullanıcı seçimleri Local Storage entegrasyonu ile tarayıcıda kalıcı hale getirilmektedir. Uzak API'ler ile veri iletişimi Axios üzerinden asenkron olarak sağlanırken, dil ve tema geçişleri gibi kullanıcı etkileşimleri React-Toastify anlık bildirimleri ile desteklenmiştir. Tüm arayüz Tailwind CSS ile responsive (mobil uyumlu) olarak tasarlanmıştır.",
+                    technologies: ["react", "context api", "axios", "tailwind css", "react-toastify", "vercel", "render", "cypress"],
+                    linkList: [
+                        { "label": "GitHub", "url": "https://github.com/ihsnsahin/FSWeb-Frontend-Challenge" },
+                        { "label": "Siteyi Gör", "url": "https://fsweb-frontend-challenge-8npr.onrender.com/" }
+                    ]
                 },
                 {
                     id: 3, image: "projects-3.png", name: "Journey", description: "Kullanıcıların seyahatlerini günlük haline getirebildiği, etkileşimli bir harita üzerinde konumları işaretleyebildiği ve aktif bir toplulukla yüksek kaliteli görseller paylaşabildiği duyarlı (responsive) bir seyahat günlüğü platformu.", technologies: ["react", "tailwind css", "node.js"], linkList: [
