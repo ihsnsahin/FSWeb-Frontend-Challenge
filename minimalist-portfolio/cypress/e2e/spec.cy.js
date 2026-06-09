@@ -40,7 +40,7 @@ describe("Minimalist Portfolio Projects", () => {
       //assets
       cy.get("html").should("have.class", "dark");
     });
-    it('Mode should switch to Dark', () => {
+    it('Mode should switch to Light', () => {
       //arrange
       //act
       cy.get('[data-cy="mode-button"]').click()

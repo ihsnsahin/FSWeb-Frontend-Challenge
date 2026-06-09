@@ -6,7 +6,7 @@ function Skills() {
     return (
         <div className="flex flex-col gap-6 border-b border-[#BAB2E7] pb-10">
             <h1 className="text-5xl leading-none font-semibold dark:text-[#AEBCCF]">{skills.title}</h1>
-            <div className="flex justify-between gap-7 max-phone:flex-wrap max-phone:justify-center">
+            <div className="flex justify-between gap-7 max-tablet:flex-wrap max-tablet:justify-center">
                 <SkillCard />
             </div>
         </div>

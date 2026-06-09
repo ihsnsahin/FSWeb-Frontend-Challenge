@@ -137,9 +137,27 @@ export const localData = {
         projects: {
             title: "Projects",
             list: [
-                { id: 1, image: "projects-1.png", name: "Workintech", description: "An administration and student tracking dashboard designed for educational bootcamps. Features comprehensive data tables, progress charts, and role-based authorization for instructors and students.", technologies: ["react", "redux", "axios"], linkList: ["Github", "View Site"] },
-                { id: 2, image: "projects-2.png", name: "Random Jokes", description: "A fun web application that fetches hilarious jokes from public APIs. Built using custom hooks for state management and features a minimalist UI with async loading states and local storage integration.", technologies: ["react", "context api", "axios"], linkList: ["Github", "View Site"] },
-                { id: 3, image: "projects-3.png", name: "Journey", description: "A responsive travel blogging platform where users can log their trips, pin locations on an interactive map, and share high-quality images with an active community.", technologies: ["react", "tailwind css", "node.js"], linkList: ["Github", "View Site"] }],
+                {
+                    id: 1,
+                    image: "pizza.png",
+                    name: "Pizza Page",
+                    description: "An ordering application featuring a dynamic form page, multi-page routing managed by react-router (Order Form/Success Page), and strict client-side validation logic. Developed and covered with comprehensive Cypress automated tests to validate form inputs and edge-case error scenarios.",
+                    technologies: ["react", "react-router", "axios", "cypress", "reactstrap"],
+                    linkList: [
+                        { "label": "GitHub", "url": "https://github.com/ihsnsahin/fsweb-s8-challenge-pizza" },
+                        { "label": "View Site", "url": "https://fsweb-s8-challenge-pizza-lilac.vercel.app/" }
+                    ]
+                },
+                {
+                    id: 2, image: "projects-2.png", name: "Random Jokes", description: "A fun web application that fetches hilarious jokes from public APIs. Built using custom hooks for state management and features a minimalist UI with async loading states and local storage integration.", technologies: ["react", "context api", "axios"], linkList: [
+                        { "label": "GitHub", "url": "" },
+                        { "label": "View Site", "url": "" }]
+                },
+                {
+                    id: 3, image: "projects-3.png", name: "Journey", description: "A responsive travel blogging platform where users can log their trips, pin locations on an interactive map, and share high-quality images with an active community.", technologies: ["react", "tailwind css", "node.js"], linkList: [
+                        { "label": "GitHub", "url": "" },
+                        { "label": "View Site", "url": "" }]
+                }],
         },
         footer: {
             title: "Let’s work together on your next product.",
@@ -194,9 +212,27 @@ export const localData = {
         projects: {
             title: "Projeler",
             list: [
-                { id: 1, image: "projects-1.png", name: "Workintech", description: "Yazılım eğitim kampları için tasarlanmış bir yönetim ve öğrenci takip paneli. Eğitmenler ve öğrenciler için kapsamlı veri tabloları, ilerleme grafikleri ve rol tabanlı yetkilendirme özellikleri içerir.", technologies: ["react", "redux", "axios"], linkList: ["Github", "Siteyi Görüntüle"] },
-                { id: 2, image: "projects-2.png", name: "Random Jokes", description: "Genel API'lerden eğlenceli şakalar çeken keyifli bir web uygulaması. Durum yönetimi için özel hook'lar kullanılarak oluşturuldu; asenkron yükleme durumları ve yerel depolama (local storage) entegrasyonuna sahip minimalist bir arayüz sunar.", technologies: ["react", "context api", "axios"], linkList: ["Github", "Siteyi Görüntüle"] },
-                { id: 3, image: "projects-3.png", name: "Journey", description: "Kullanıcıların seyahatlerini günlük haline getirebildiği, etkileşimli bir harita üzerinde konumları işaretleyebildiği ve aktif bir toplulukla yüksek kaliteli görseller paylaşabildiği duyarlı (responsive) bir seyahat günlüğü platformu.", technologies: ["react", "tailwind css", "node.js"], linkList: ["Github", "Siteyi Görüntüle"] }]
+                {
+                    id: 1,
+                    image: "pizza.png",
+                    name: "Pizza Sayfası",
+                    description: "Kullanıcı etkileşimi yüksek dinamik bir form sayfası, react-router ile yönetilen çoklu sayfa akışı (Sipariş Formu/Başarı Sayfası) ve katı form doğrulama süreçleri içeren sipariş uygulaması. Form girdilerini ve hata senaryolarını uçtan uca denetleyen kapsamlı Cypress testleri gerçekleştirilmiştir.",
+                    technologies: ["react", "react-router", "axios", "cypress", "reactstrap"],
+                    linkList: [
+                        { "label": "GitHub", "url": "https://github.com/ihsnsahin/fsweb-s8-challenge-pizza" },
+                        { "label": "Siteyi Gör", "url": "https://fsweb-s8-challenge-pizza-lilac.vercel.app/" }
+                    ]
+                },
+                {
+                    id: 2, image: "projects-2.png", name: "Random Jokes", description: "Genel API'lerden eğlenceli şakalar çeken keyifli bir web uygulaması. Durum yönetimi için özel hook'lar kullanılarak oluşturuldu; asenkron yükleme durumları ve yerel depolama (local storage) entegrasyonuna sahip minimalist bir arayüz sunar.", technologies: ["react", "context api", "axios"], linkList: [
+                        { "label": "GitHub", "url": "" },
+                        { "label": "Siteyi Gör", "url": "" }]
+                },
+                {
+                    id: 3, image: "projects-3.png", name: "Journey", description: "Kullanıcıların seyahatlerini günlük haline getirebildiği, etkileşimli bir harita üzerinde konumları işaretleyebildiği ve aktif bir toplulukla yüksek kaliteli görseller paylaşabildiği duyarlı (responsive) bir seyahat günlüğü platformu.", technologies: ["react", "tailwind css", "node.js"], linkList: [
+                        { "label": "GitHub", "url": "" },
+                        { "label": "Siteyi Gör", "url": "" }]
+                }]
         },
         footer: {
             title: "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
