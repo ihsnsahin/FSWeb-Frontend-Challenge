@@ -98,7 +98,11 @@ export const localData = {
         },
         header: {
 
-            list: ["Skills", "Projects", "Hire Me"],
+            list: [
+                { "label": "Skills", "url": "#skills" },
+                { "label": "Projects", "url": "#projects" },
+                { "label": "Hire me", "url": "" }
+            ],
             langBase: "TÜRKÇE",
             langSuffix1: "",
             langSuffix2: "'YE GEÇ",
@@ -108,7 +112,11 @@ export const localData = {
         hero: {
             title: "Creative thinker Minimalism lover",
             text: "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
-            list: ["Hire me", "Github", "Linkedin"],
+            list: [
+                { "label": "Beni işe al", "url": "" },
+                { "label": "Github", "url": "" },
+                { "label": "Linkedin", "url": "" }
+            ]
         },
         skills: {
             title: "Skills",
@@ -157,7 +165,8 @@ export const localData = {
                     id: 3, image: "projects-3.png", name: "Journey", description: "A responsive travel blogging platform where users can log their trips, pin locations on an interactive map, and share high-quality images with an active community.", technologies: ["react", "tailwind css", "node.js"], linkList: [
                         { "label": "GitHub", "url": "" },
                         { "label": "View Site", "url": "" }]
-                }],
+                },
+            ],
         },
         footer: {
             title: "Let’s work together on your next product.",
@@ -173,7 +182,11 @@ export const localData = {
         },
         header: {
 
-            list: ["Yetenekler", "Projeler", "Beni İşe Al"],
+            list: [
+                { "label": "Yetenekler", "url": "#skills" },
+                { "label": "Projeler", "url": "#projects" },
+                { "label": "Beni işe al", "url": "" }
+            ],
             langBase: "ENGLİSH",
             langSuffix1: "SWITCH TO ",
             langSuffix2: "",
@@ -183,7 +196,11 @@ export const localData = {
         hero: {
             title: "Yaratıcı düşünen, minimalizm seven",
             text: "Merhaba, ben Almila. Full-stack geliştiriciyim. Harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir Geliştirici arıyorsanız, haydi el sıkışalım.",
-            list: ["Beni işe al", "Github", "Linkedin"],
+            list: [
+                { "label": "Hire me", "url": "" },
+                { "label": "Github", "url": "" },
+                { "label": "Linkedin", "url": "" }
+            ]
         },
         skills: {
             title: "Yetenekler",

@@ -16,9 +16,9 @@ function Hero() {
                     <h1 className="text-7xl font-bold leading-18 dark:text-[#AEBCCF]">{hero.title}</h1>
                     <p className="text-lg font-normal leading-7 text-gray-500 dark:text-white">{hero.text}</p>
                     <nav className="flex items-center gap-2.5">
-                        <a href="" className="button-hero py-3 px-8  ">{hero.list[0]}</a>
-                        <a href="" className="button-hero pt-3 pb-3 pl-3 pr-5 gap-2"><FaGithub className="text-2xl" /><span>{hero.list[1]}</span></a>
-                        <a href="" className="button-hero pt-3 pb-3 pl-3 pr-5 gap-2"><FaLinkedin className="text-2xl" /><span>{hero.list[2]}</span></a>
+                        <a href={hero?.list?.[0]?.url} className="button-hero py-3 px-8  ">{hero?.list?.[0]?.label}</a>
+                        <a href={hero?.list?.[1]?.url} className="button-hero pt-3 pb-3 pl-3 pr-5 gap-2"><FaGithub className="text-2xl" /><span>{hero.list?.[1]?.label}</span></a>
+                        <a href={hero?.list?.[2]?.url} className="button-hero pt-3 pb-3 pl-3 pr-5 gap-2"><FaLinkedin className="text-2xl" /><span>{hero?.list?.[2]?.label}</span></a>
                     </nav>
                 </div>
                 {/*Sağ Blok içerik*/}

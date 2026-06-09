@@ -4,9 +4,9 @@ function Projects() {
     const { contextData } = useLanguage();
     const { projects } = contextData;
     return (
-        <div className="flex flex-col gap-6 pb-33">
+        <div id="projects" className="flex flex-col gap-6 pb-33">
             <h1 className="text-5xl leading-none font-semibold dark:text-[#AEBCCF]">{projects.title}</h1>
-            <div className="flex justify-between gap-7 max-tablet:flex-wrap max-tablet:justify-center">
+            <div className="flex flex-wrap justify-between gap-7 max-tablet:flex-wrap max-tablet:justify-center">
                 <ProjectCard />
             </div>
         </div>

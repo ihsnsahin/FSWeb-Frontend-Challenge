@@ -41,7 +41,7 @@ function Header() {
                 <span className="w-14 h-14 text-[#7B61FF] dark:text-[#8F88FF] bg-[#EEEBFF] dark:bg-[#4731D3] rounded-full flex items-center justify-center font-bold text-2xl rotate-40">A</span>
                 <nav className="flex items-center">
                     {header.list.map((item, index) => (
-                        <a key={index} href="" className="button-header">{item}</a>
+                        <a key={index} href={item.url} className="button-header">{item.label}</a>
                     ))}
                 </nav>
             </div>
