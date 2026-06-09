@@ -3,6 +3,7 @@
 
 @theme {
     --font-sans: "Inter", sans-serif;
+    --breakpoint-phone-xs: 490px;
     --breakpoint-phone: 532px;
     --breakpoint-tablet: 900px;
     --breakpoint-md: 980px;
