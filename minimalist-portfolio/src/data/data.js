@@ -150,7 +150,7 @@ export const localData = {
                     image: "pizza.png",
                     name: "Pizza Page",
                     description: "An ordering application featuring a dynamic form page, multi-page routing managed by react-router (Order Form/Success Page), and strict client-side validation logic. Developed and covered with comprehensive Cypress automated tests to validate form inputs and edge-case error scenarios.",
-                    technologies: ["react", "react-router", "axios", "cypress", "reactstrap"],
+                    technologies: ["react", "react-router", "axios", "cypress", "reactstrap", "vercel"],
                     linkList: [
                         { "label": "GitHub", "url": "https://github.com/ihsnsahin/fsweb-s8-challenge-pizza" },
                         { "label": "View Site", "url": "https://fsweb-s8-challenge-pizza-lilac.vercel.app/" }
@@ -234,7 +234,7 @@ export const localData = {
                     image: "pizza.png",
                     name: "Pizza Sayfası",
                     description: "Kullanıcı etkileşimi yüksek dinamik bir form sayfası, react-router ile yönetilen çoklu sayfa akışı (Sipariş Formu/Başarı Sayfası) ve katı form doğrulama süreçleri içeren sipariş uygulaması. Form girdilerini ve hata senaryolarını uçtan uca denetleyen kapsamlı Cypress testleri gerçekleştirilmiştir.",
-                    technologies: ["react", "react-router", "axios", "cypress", "reactstrap"],
+                    technologies: ["react", "react-router", "axios", "cypress", "reactstrap", "vercel"],
                     linkList: [
                         { "label": "GitHub", "url": "https://github.com/ihsnsahin/fsweb-s8-challenge-pizza" },
                         { "label": "Siteyi Gör", "url": "https://fsweb-s8-challenge-pizza-lilac.vercel.app/" }
