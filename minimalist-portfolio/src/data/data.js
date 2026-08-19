@@ -90,6 +90,7 @@ const Data2 = {
     }
 }
 
+
 export const localData = {
     "en": {
         themeContext: {
@@ -270,3 +271,369 @@ export const localData = {
         }
     }
 }
+
+export const myData = {
+    "en": {
+        themeContext: {
+            darkModeText: "Switched to Dark Mode.",
+            lightModeText: "Switched to Light Mode."
+        },
+
+        header: {
+            list: [
+                { "label": "Skills", "url": "#skills" },
+                { "label": "Projects", "url": "#projects" },
+                { "label": "Hire me", "url": "" }
+            ],
+            langBase: "TÜRKÇE",
+            langSuffix1: "",
+            langSuffix2: "'YE GEÇ",
+            darkModeText: "DARK MODE",
+            lightModeText: "LIGHT MODE"
+        },
+
+        hero: {
+            title: "Creative thinker Minimalism lover",
+            text: "Hi, I’m İhsan. I’m a Full Stack Developer who enjoys building interactive and responsive web applications. I work with React on the frontend and Java, Spring Boot, and PostgreSQL on the backend, focusing on creating practical solutions and continuously improving my development skills.",
+            list: [
+                { "label": "Hire me", "url": "" },
+                { "label": "Github", "url": "https://github.com/ihsnsahin" },
+                { "label": "Linkedin", "url": "https://www.linkedin.com/in/ihsan-%C5%9Fahin-b74a72311/" }
+            ]
+        },
+
+        skills: {
+            title: "Skills",
+            list: [
+                {
+                    id: 1,
+                    name: "React",
+                    description: "Building responsive and interactive user interfaces, creating reusable components, and developing modern frontend applications with React."
+                },
+                {
+                    id: 2,
+                    name: "Java & Spring Boot",
+                    description: "Developing backend applications with Java and OOP, building RESTful APIs with Spring Boot, and managing database operations with Spring Data JPA."
+                },
+                {
+                    id: 3,
+                    name: "TanStack Query & API Integration",
+                    description: "Managing API requests and server state with TanStack Query and handling communication between frontend and backend using Axios."
+                }
+            ]
+        },
+
+        profiles: {
+            title: "Profile",
+            subtitle: "Profile",
+
+            profileList: [
+                { id: "Birthday", key: "Date of Birth", value: "15.10.1993" },
+                { id: "City", key: "City", value: "Ordu" },
+                {
+                    id: "Education",
+                    key: "Education",
+                    value: "Yıldız Technical University, Mechanical Engineering, 2016"
+                },
+                {
+                    id: "Training",
+                    key: "Developer Training",
+                    value: "Workintech Full Stack Development Program, 2026"
+                },
+                {
+                    id: "Role",
+                    key: "Preferred Role",
+                    value: "Full Stack Developer"
+                },
+                {
+                    id: "Language",
+                    key: "English",
+                    value: "Pre-Intermediate"
+                }
+            ],
+
+            aboutMe: {
+                title: "About Me",
+                text: [
+                    "I completed the Workintech Full Stack Development program, a 6-month, 960-hour program where I worked on 78 projects covering both frontend and backend development. Throughout the program, I gained hands-on experience by building web applications and working with modern development tools and technologies.",
+                    "I enjoy learning by building projects and applying new technologies in practice. My goal is to continue developing my skills and grow as a Full Stack Developer."
+                ]
+            }
+        },
+
+        projects: {
+            title: "Projects",
+
+            list: [
+                {
+                    id: 1,
+                    image: "pizza.png",
+                    name: "Pizza Order Page",
+                    description: "An interactive and dynamic pizza ordering application featuring a multi-page flow managed with React Router, strict form validation, responsive design, and comprehensive Cypress end-to-end tests covering form inputs and error scenarios.",
+                    technologies: [
+                        "react",
+                        "react-router",
+                        "axios",
+                        "cypress",
+                        "reactstrap",
+                        "vercel"
+                    ],
+                    linkList: [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/ihsnsahin/fsweb-s8-challenge-pizza"
+                        },
+                        {
+                            "label": "View Site",
+                            "url": "https://fsweb-s8-challenge-pizza-lilac.vercel.app/"
+                        }
+                    ]
+                },
+
+                {
+                    id: 2,
+                    image: "kisiselwebsitesi.png",
+                    name: "Minimalist Portfolio Application",
+                    description: "A dynamic and fully responsive portfolio application built with modern web technologies and UX best practices. Multi-language support and dark/light theme settings are managed globally with Context API, while user preferences are persisted using Local Storage. Axios is used for asynchronous API communication and React-Toastify provides user interaction feedback.",
+                    technologies: [
+                        "react",
+                        "context api",
+                        "axios",
+                        "tailwind css",
+                        "react-toastify",
+                        "vercel",
+                        "render",
+                        "cypress"
+                    ],
+                    linkList: [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/ihsnsahin/FSWeb-Frontend-Challenge"
+                        },
+                        {
+                            "label": "View Site",
+                            "url": "https://fsweb-frontend-challenge-8npr.onrender.com/"
+                        }
+                    ]
+                },
+
+                {
+                    id: 3,
+                    image: "twitterclone.png",
+                    name: "Twitter Clone",
+                    description: "A full-stack social media application developed with React and Spring Boot. The application includes session-based authentication, protected routes, tweet management, form validation, RESTful APIs, and PostgreSQL data persistence.",
+                    technologies: [
+                        "react",
+                        "tanstack query",
+                        "react hook form",
+                        "spring boot",
+                        "spring security",
+                        "spring data jpa",
+                        "postgresql"
+                    ],
+                    linkList: [
+                        {
+                            "label": "Frontend GitHub",
+                            "url": "https://github.com/ihsnsahin/twitter-clone"
+                        },
+                        {
+                            "label": "Backend GitHub",
+                            "url": "https://github.com/ihsnsahin/twitter-clone-backend"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        footer: {
+            title: "Let’s work together on your next product.",
+            mail: "ihsansahin777@gmail.com",
+            list: [
+                "Github",
+                "Linkedin"
+            ]
+        }
+    },
+
+    "tr": {
+        themeContext: {
+            darkModeText: "Gece Moda geçildi.",
+            lightModeText: "Gündüz Moda geçildi."
+        },
+
+        header: {
+            list: [
+                { "label": "Yetenekler", "url": "#skills" },
+                { "label": "Projeler", "url": "#projects" },
+                { "label": "Beni işe al", "url": "" }
+            ],
+            langBase: "ENGLISH",
+            langSuffix1: "SWITCH TO ",
+            langSuffix2: "",
+            darkModeText: "GECE MOD",
+            lightModeText: "GÜNDÜZ MOD"
+        },
+
+        hero: {
+            title: "Yaratıcı düşünen, minimalizm seven",
+            text: "Merhaba, ben İhsan. Etkileşimli ve responsive web uygulamaları geliştirmekten hoşlanan bir Full Stack Developer'ım. Frontend tarafında React, backend tarafında Java, Spring Boot ve PostgreSQL ile çalışıyor; pratik çözümler geliştirmeye ve yazılım alanındaki becerilerimi sürekli ilerletmeye odaklanıyorum.",
+            list: [
+                { "label": "Beni işe al", "url": "" },
+                { "label": "Github", "url": "https://github.com/ihsnsahin" },
+                { "label": "Linkedin", "url": "https://www.linkedin.com/in/ihsan-%C5%9Fahin-b74a72311/" }
+            ]
+        },
+
+        skills: {
+            title: "Yetenekler",
+            list: [
+                {
+                    id: 1,
+                    name: "React",
+                    description: "Responsive ve etkileşimli kullanıcı arayüzleri geliştirme, yeniden kullanılabilir bileşenler oluşturma ve modern React yapılarıyla frontend uygulamaları geliştirme."
+                },
+                {
+                    id: 2,
+                    name: "Java & Spring Boot",
+                    description: "Java ve OOP ile backend uygulamaları geliştirme, Spring Boot ile RESTful API'ler oluşturma ve Spring Data JPA ile veritabanı işlemlerini yönetme."
+                },
+                {
+                    id: 3,
+                    name: "TanStack Query & API Integration",
+                    description: "API isteklerini ve server state yönetimini TanStack Query ile gerçekleştirme, Axios ile frontend ve backend arasındaki veri iletişimini yönetme."
+                }
+            ]
+        },
+
+        profiles: {
+            title: "Profil",
+            subtitle: "Profil",
+
+            profileList: [
+                { id: "Birthday", key: "Doğum Tarihi", value: "15.10.1993" },
+                { id: "City", key: "İkamet Şehri", value: "Ordu" },
+                {
+                    id: "Education",
+                    key: "Eğitim Durumu",
+                    value: "Yıldız Teknik Üniversitesi, Makine Mühendisliği, 2016"
+                },
+                {
+                    id: "Training",
+                    key: "Yazılım Eğitimi",
+                    value: "Workintech Full Stack Development Programı, 2026"
+                },
+                {
+                    id: "Role",
+                    key: "Tercih Ettiği Rol",
+                    value: "Full Stack Developer"
+                },
+                {
+                    id: "Language",
+                    key: "İngilizce",
+                    value: "Pre-Intermediate"
+                }
+            ],
+
+            aboutMe: {
+                title: "Hakkımda",
+                text: [
+                    "Workintech Full Stack Development programını tamamladım. 6 ay ve 960 saat süren bu programda frontend ve backend geliştirme üzerine 78 proje üzerinde çalıştım. Eğitim süresince web uygulamaları geliştirerek ve modern geliştirme araçları ve teknolojileriyle çalışarak uygulamalı deneyim kazandım.",
+                    "Öğrenirken proje geliştirmeyi ve yeni teknolojileri uygulayarak deneyim kazanmayı seviyorum. Hedefim teknik becerilerimi sürekli geliştirerek Full Stack Developer olarak ilerlemek."
+                ]
+            }
+        },
+
+        projects: {
+            title: "Projeler",
+
+            list: [
+                {
+                    id: 1,
+                    image: "pizza.png",
+                    name: "Pizza Sipariş Sayfası",
+                    description: "React Router ile yönetilen çoklu sayfa akışına, katı form doğrulamasına, responsive tasarıma ve form girdileri ile hata senaryolarını uçtan uca denetleyen kapsamlı Cypress testlerine sahip dinamik pizza sipariş uygulaması.",
+                    technologies: [
+                        "react",
+                        "react-router",
+                        "axios",
+                        "cypress",
+                        "reactstrap",
+                        "vercel"
+                    ],
+                    linkList: [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/ihsnsahin/fsweb-s8-challenge-pizza"
+                        },
+                        {
+                            "label": "Siteyi Gör",
+                            "url": "https://fsweb-s8-challenge-pizza-lilac.vercel.app/"
+                        }
+                    ]
+                },
+
+                {
+                    id: 2,
+                    image: "kisiselwebsitesi.png",
+                    name: "Minimalist Portfolyo Uygulaması",
+                    description: "Modern web teknolojileri ve UX pratikleri kullanılarak geliştirilen dinamik ve responsive portfolyo uygulaması. Çoklu dil desteği ve karanlık/aydınlık tema tercihleri Context API ile yönetilirken, kullanıcı tercihleri Local Storage ile kalıcı hale getirilmiştir. Axios ile asenkron API iletişimi sağlanmış, React-Toastify ile kullanıcı etkileşimleri desteklenmiştir.",
+                    technologies: [
+                        "react",
+                        "context api",
+                        "axios",
+                        "tailwind css",
+                        "react-toastify",
+                        "vercel",
+                        "render",
+                        "cypress"
+                    ],
+                    linkList: [
+                        {
+                            "label": "GitHub",
+                            "url": "https://github.com/ihsnsahin/FSWeb-Frontend-Challenge"
+                        },
+                        {
+                            "label": "Siteyi Gör",
+                            "url": "https://fsweb-frontend-challenge-8npr.onrender.com/"
+                        }
+                    ]
+                },
+
+                {
+                    id: 3,
+                    image: "projects-3.png",
+                    name: "Twitter Clone",
+                    description: "React ve Spring Boot kullanılarak geliştirilen full-stack sosyal medya uygulaması. Session ID tabanlı authentication, protected route yapısı, tweet yönetimi, form doğrulama, RESTful API'ler ve PostgreSQL veri kalıcılığı içermektedir.",
+                    technologies: [
+                        "react",
+                        "tanstack query",
+                        "react hook form",
+                        "spring boot",
+                        "spring security",
+                        "spring data jpa",
+                        "postgresql"
+                    ],
+                    linkList: [
+                        {
+                            "label": "Frontend GitHub",
+                            "url": "https://github.com/ihsnsahin/twitter-clone"
+                        },
+                        {
+                            "label": "Backend GitHub",
+                            "url": "https://github.com/ihsnsahin/twitter-clone-backend"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        footer: {
+            title: "Bir sonraki projeniz üzerinde birlikte çalışalım.",
+            mail: "ihsansahin777@gmail.com",
+            list: [
+                "Github",
+                "Linkedin"
+            ]
+        }
+    }
+};

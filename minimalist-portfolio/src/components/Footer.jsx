@@ -9,15 +9,15 @@ function Footer() {
                 <div className="flex justify-between max-phone:flex-wrap max-phone:gap-7">
                     <div className="text-xl font-medium">
                         <span> 👉 </span>
-                        <a href="mailto:almilasucode@gmail.com" className=" text-[#AF0C48] underline dark:text-[#BAB2E7]">
+                        <a className=" text-[#AF0C48] underline dark:text-[#BAB2E7]">
                             {footer.mail}
                         </a></div>
 
                     <nav className="max-phone:w-full">
                         <ul className="flex gap-6 text-lg font-medium max-phone:justify-between">
                             <li><a href="#" target="_blank" rel="noreferrer" className="text-[#0A0A14] dark:text-[#E1E1FF]">{footer.list[0]}</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="text-[#00AB6B]">{footer.list[1]}</a></li>
-                            <li><a href="#" target="_blank" rel="noreferrer" className="text-[#0077B5]">{footer.list[2]}</a></li>
+                            <li><a href="https://github.com/ihsnsahin" target="_blank" rel="noreferrer" className="text-[#00AB6B]">{footer.list[1]}</a></li>
+                            <li><a href="https://www.linkedin.com/in/ihsan-%C5%9Fahin-b74a72311/" target="_blank" rel="noreferrer" className="text-[#0077B5]">{footer.list[2]}</a></li>
                         </ul>
                     </nav>
                 </div>

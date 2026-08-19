@@ -11,7 +11,7 @@ function Hero() {
                 <div className="flex items-start flex-col gap-10 max-w-150 max-md:max-w-full">
                     <div className="flex items-center gap-3">
                         <span className="w-20 h-0.5 bg-indigo-700 dark:bg-[#B7AAFF]" />
-                        <span className="text-xl font-medium leading-none text-indigo-700 dark:text-[#B7AAFF]" >Almila Su</span>
+                        <span className="text-xl font-medium leading-none text-indigo-700 dark:text-[#B7AAFF]" >İhsan Şahin</span>
                     </div>
                     <h1 className="text-7xl font-bold leading-18 dark:text-[#AEBCCF]">{hero.title}</h1>
                     <p className="text-lg font-normal leading-7 text-gray-500 dark:text-white">{hero.text}</p>

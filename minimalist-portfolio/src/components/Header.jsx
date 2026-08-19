@@ -38,7 +38,7 @@ function Header() {
                 </button>
             </div>
             <div className="flex justify-between">
-                <span className="w-14 h-14 text-[#7B61FF] dark:text-[#8F88FF] bg-[#EEEBFF] dark:bg-[#4731D3] rounded-full flex items-center justify-center font-bold text-2xl rotate-40">A</span>
+                <span className="w-14 h-14 text-[#7B61FF] dark:text-[#8F88FF] bg-[#EEEBFF] dark:bg-[#4731D3] rounded-full flex items-center justify-center font-bold text-2xl rotate-40">İ.Ş</span>
                 <nav className="flex items-center">
                     {header.list.map((item, index) => (
                         <a key={index} href={item.url} className="button-header">{item.label}</a>

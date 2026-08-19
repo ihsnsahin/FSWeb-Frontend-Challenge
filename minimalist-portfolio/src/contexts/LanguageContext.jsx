@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { localData } from "../data/data";
+import { myData } from "../data/data";
 import usePreference from "../hooks/usePreference";
 import usePostRequest from "../hooks/usePostRequest";
 import Loading from "../components/Loading";
@@ -15,7 +15,7 @@ function LanguageContextProvider({ children }) {
     const [contextData, setContextData] = useState(null)
     const { data, loading, error, postRequest } = usePostRequest();
     useEffect(() => {
-        postRequest("https://reqres.in/api/workintech", localData, {
+        postRequest("https://reqres.in/api/workintech", myData, {
             headers: {
                 "x-api-key": "pub_e7c920192e6ad11f207689543c903ef5bb08cd256b7799510de8af441cd410a4",
             }
