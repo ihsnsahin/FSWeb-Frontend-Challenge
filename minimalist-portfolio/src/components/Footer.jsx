@@ -15,9 +15,9 @@ function Footer() {
 
                     <nav className="max-phone:w-full">
                         <ul className="flex gap-6 text-lg font-medium max-phone:justify-between">
-                            <li><a href="#" target="_blank" rel="noreferrer" className="text-[#0A0A14] dark:text-[#E1E1FF]">{footer.list[0]}</a></li>
-                            <li><a href="https://github.com/ihsnsahin" target="_blank" rel="noreferrer" className="text-[#00AB6B]">{footer.list[1]}</a></li>
-                            <li><a href="https://www.linkedin.com/in/ihsan-%C5%9Fahin-b74a72311/" target="_blank" rel="noreferrer" className="text-[#0077B5]">{footer.list[2]}</a></li>
+                            <li><a href="https://github.com/ihsnsahin" target="_blank" rel="noreferrer" className="text-[#0A0A14] dark:text-[#E1E1FF]">{footer.list[0]}</a></li>
+                            <li><a href="https://www.linkedin.com/in/ihsan-%C5%9Fahin-b74a72311/" target="_blank" rel="noreferrer" className="text-[#00AB6B]">{footer.list[1]}</a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer" className="text-[#0077B5]">{footer.list[2]}</a></li>
                         </ul>
                     </nav>
                 </div>
