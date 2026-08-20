@@ -601,7 +601,7 @@ export const myData = {
 
                 {
                     id: 3,
-                    image: "projects-3.png",
+                    image: "twitterclone.png",
                     name: "Twitter Clone",
                     description: "React ve Spring Boot kullanılarak geliştirilen full-stack sosyal medya uygulaması. Session ID tabanlı authentication, protected route yapısı, tweet yönetimi, form doğrulama, RESTful API'ler ve PostgreSQL veri kalıcılığı içermektedir.",
                     technologies: [

@@ -23,7 +23,7 @@ function Hero() {
                 </div>
                 {/*Sağ Blok içerik*/}
                 <div className="flex items-center justify-center max-w-118.75 max-md:max-w-full">
-                    <img src="/hero.png" alt="Hero" className="rounded-3xl w-full aspect-[5/4] object-cover max-md:aspect-[2/1] max-phone:aspect-[4/3]" />
+                    <img src="/hero2.JPG" alt="Hero" className="rounded-3xl w-full aspect-[5/4] object-cover max-md:aspect-[2/1] max-phone:aspect-[4/3]" />
                 </div>
             </section>
         </>
