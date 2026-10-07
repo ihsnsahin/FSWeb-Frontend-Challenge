@@ -665,7 +665,7 @@ export const myData2 = {
             list: [
                 { "label": "Hire me", "url": "" },
                 { "label": "Github", "url": "https://github.com/ihsnsahin" },
-                { "label": "Linkedin", "url": "https://www.linkedin.com/in/ihsan-%C5%9Fahin-b74a72311/" }
+                { "label": "Linkedin", "url": "https://www.linkedin.com/in/ihsan-sahinn" }
             ]
         },
 
@@ -888,7 +888,7 @@ export const myData2 = {
             list: [
                 { "label": "Beni işe al", "url": "" },
                 { "label": "Github", "url": "https://github.com/ihsnsahin" },
-                { "label": "Linkedin", "url": "https://www.linkedin.com/in/ihsan-%C5%9Fahin-b74a72311/" }
+                { "label": "Linkedin", "url": "https://www.linkedin.com/in/ihsan-sahinn" }
             ]
         },
 
